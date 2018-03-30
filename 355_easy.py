@@ -1,8 +1,3 @@
-# -*- coding: utf-8 -*-
-# <nbformat>4</nbformat>
-
-# <codecell> {"collapsed": true}
-
 # Initialize internal chart
 chart = '''  ABCDEFGHIJKLMNOPQRSTUVWXYZ
 A abcdefghijklmnopqrstuvwxyz
@@ -33,8 +28,6 @@ Y yzabcdefghijklmnopqrstuvwx
 Z zabcdefghijklmnopqrstuvwxy'''
 
 chart_new = chart.split('\n')
-
-# <codecell> {}
 
 # Functions:
 def split_msg(input_msg):
@@ -90,10 +83,4 @@ def decode(input_msg):
 
     return new_msg.lower()
 
-# <codecell> {}
-
 decode('cloak klatrgafedvtssdwywcyty')
-
-# <metadatacell>
-
-{"kernelspec": {"display_name": "Python 2", "name": "python2", "language": "python"}}
