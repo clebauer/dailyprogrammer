@@ -1,8 +1,3 @@
-# -*- coding: utf-8 -*-
-# <nbformat>4</nbformat>
-
-# <codecell> {}
-
 def how_many_flips(i):
     # Pull pancake stack from input
     all_pancake_sets = [map(int, y.split(' ')) for y in inp.split('\n')[1::3]]
@@ -51,8 +46,6 @@ def how_many_flips(i):
                 break#return flip_count
         #break#return flip_count            
 
-# <codecell> {}
-
 inp = '''8
 7 6 4 2 6 7 8 7
 ----
@@ -62,11 +55,3 @@ inp = '''8
 10
 3 12 8 12 4 7 10 3 8 10'''
 how_many_flips(inp)
-
-# <codecell> {"collapsed": true}
-
-
-
-# <metadatacell>
-
-{"kernelspec": {"display_name": "Python 2", "name": "python2", "language": "python"}}
